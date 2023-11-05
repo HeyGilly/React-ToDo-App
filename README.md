@@ -31,4 +31,4 @@ I welcome contributions from the community! Whether you're a seasoned developer 
 
 ### Contact
 
-If you have any questions or need assistance, you can reach out to [@HeyGilly](https://linkedin.com/in/heygilly)# React-ToDo-App
+If you have any questions or need assistance, you can reach out to [@HeyGilly](https://linkedin.com/in/heygilly)
