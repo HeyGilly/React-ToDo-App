@@ -1,0 +1,134 @@
+
+/*!*-- Body --*!*/
+body {
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+/*-- Body of Application --*/
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /*Width*/
+    width: 50%;
+    min-width: 420px;
+    max-width: 520px;
+    /*Height*/
+    min-height: 600px;
+    /*Background*/
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    /*Box Shadow*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+}
+
+/*-- Spacing from input to task--*/
+.todo-form {
+    margin-bottom: 32px;
+}
+
+/*-- Header --*/
+h1 {
+    margin: 32px 0;
+    font-size: 36px;
+}
+
+/*-- When a task completed --*/
+.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+
+/*--input--*/
+.todo-input  {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #e3dde8;
+    outline: none;
+    max-width: 420px;
+    background: transparent;
+    color: #fff;
+}
+
+/*-- Input Placeholder--*/
+.todo-input::placeholder {
+    color: #e2e2e2;
+}
+
+/*-- Add Button & Edit Button --*/
+.todo-button,.edit-todo-form button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    color: #3f4e6b;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.todo-button:hover{
+    background-image: linear-gradient(to top, #ebebeb 0%, #b9babb 52%, #9f9f9f 100%);
+}
+
+/* Edit input form */
+.edit-todo-form input{
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #e3dde8;
+    outline: none;
+    max-width: 420px;
+    background: rgba(237, 169, 100, 0.49);
+    color: lightcyan;
+}
+
+/*-- Edit input placeholder --*/
+.edit-todo-form input::placeholder {
+    color: lightcyan;
+}
+
+
+/*-- The Task Row --*/
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #2f2f2f;
+    background: #e3dde8;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+/*-- Both Icons--*/
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+/*-- Delete Icon --*/
+.delete-icon {
+    margin-right: 5px;
+    color: #fff;
+    height: 24px;
+    width: 24px;
+}
+
+/*-- Edit Icon --*/
+.edit-icon {
+    color: #fff;
+    height: 24px;
+    width: 24px;
+}
+
+
+
+
+
+
